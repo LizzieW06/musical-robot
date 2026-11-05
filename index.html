@@ -3,17 +3,201 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>My first site</title>
+  <title>Engineered to Heal 2027 – CAR T Cell Therapy Symposium</title>
+  <meta name="description" content="A fictional one-day oncology symposium on CAR T cell therapy for healthcare professionals.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Montserrat:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Montserrat:wght@600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <main>
-    <p class="eyebrow">It's alive</p>
-    <h1>Hello, friends.</h1>
-    <p>If you can read this on a real web address, your site is deployed. Now open Claude Code and ask it to turn this page into something of your own.</p>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="logo" href="#top" aria-label="Engineered to Heal 2027, back to top">
+        <svg viewBox="0 0 32 32" width="28" height="28" aria-hidden="true" focusable="false">
+          <circle cx="16" cy="16" r="10" fill="#1d5fa8"/>
+          <path d="M16 6V2M13 2l3 3 3-3M26 16h4M30 13l-3 3 3 3M16 26v4M13 30l3-3 3 3M6 16H2M2 13l3 3-3 3" stroke="#1d5fa8" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="16" cy="16" r="4" fill="#dbeafe"/>
+        </svg>
+        <span>Engineered to Heal</span>
+      </a>
+      <nav aria-label="Main">
+        <ul>
+          <li><a href="#agenda">Agenda</a></li>
+          <li><a href="#speakers">Speakers</a></li>
+          <li><a class="nav-cta" href="#register">Register</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- Hero banner -->
+    <section class="hero" id="top">
+      <div class="wrap hero-inner">
+        <div class="hero-text">
+          <p class="eyebrow">Oncology symposium for healthcare professionals</p>
+          <h1>Engineered to Heal 2027</h1>
+          <p class="hero-sub">CAR T cell therapy: from the lab bench to the bedside</p>
+          <ul class="hero-facts">
+            <li><strong>Date:</strong> Thursday 13 May 2027</li>
+            <li><strong>Time:</strong> 9:00 to 16:30</li>
+            <li><strong>Place:</strong> Harbourview Conference Centre (fictional) and online</li>
+          </ul>
+          <a class="button" href="#register">Register your place</a>
+        </div>
+
+        <!-- Illustration: a CAR T cell using its receptors to lock on to a cancer cell -->
+        <figure class="hero-art">
+          <svg viewBox="0 0 400 320" role="img" aria-labelledby="art-title art-desc">
+            <title id="art-title">A CAR T cell attaching to a cancer cell</title>
+            <desc id="art-desc">A round blue immune cell covered in Y-shaped receptors reaches out and locks on to a larger, irregular cancer cell.</desc>
+            <!-- soft background blobs -->
+            <circle cx="300" cy="80" r="70" fill="#e6f0fb"/>
+            <circle cx="90" cy="250" r="55" fill="#e6f0fb"/>
+
+            <!-- cancer cell -->
+            <path d="M262 112c34-8 74 12 86 46 13 36-4 78-40 92-30 12-48 2-74-6-30-9-48-34-44-66 4-36 40-58 72-66z" fill="#c7dbf2" stroke="#7aa3d4" stroke-width="3"/>
+            <circle cx="290" cy="178" r="22" fill="#a9c6e8"/>
+            <circle cx="250" cy="150" r="5" fill="#a9c6e8"/>
+            <circle cx="320" cy="225" r="6" fill="#a9c6e8"/>
+            <circle cx="330" cy="140" r="4" fill="#a9c6e8"/>
+
+            <!-- CAR T cell -->
+            <circle cx="135" cy="160" r="70" fill="#1d5fa8"/>
+            <circle cx="135" cy="160" r="70" fill="none" stroke="#0b2e59" stroke-width="3"/>
+            <circle cx="125" cy="150" r="28" fill="#3b7fd0"/>
+            <circle cx="160" cy="185" r="6" fill="#5c97dc"/>
+            <circle cx="105" cy="195" r="5" fill="#5c97dc"/>
+
+            <!-- receptors (Y shapes) around the T cell -->
+            <g stroke="#0b2e59" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M135 90V72M127 64l8 8 8-8"/>
+              <path d="M85 110l-13-13M70 87l2 10 10 2"/>
+              <path d="M65 160H47M39 152l8 8-8 8"/>
+              <path d="M85 210l-13 13M70 233l2-10 10-2"/>
+              <path d="M135 230v18M127 256l8-8 8 8"/>
+              <path d="M185 110l13-13M200 87l-2 10-10 2"/>
+              <path d="M185 210l13 13M200 233l-2-10-10-2"/>
+            </g>
+
+            <!-- receptors locked on to the cancer cell -->
+            <g stroke="#0b2e59" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M204 150h20M232 142l-8 8 8 8"/>
+              <path d="M200 178l18 6M226 179l-8 5 3 10"/>
+            </g>
+            <circle cx="235" cy="150" r="4" fill="#0b2e59"/>
+            <circle cx="229" cy="187" r="4" fill="#0b2e59"/>
+          </svg>
+          <figcaption>A CAR T cell (left) uses its engineered receptors to find and lock on to a cancer cell.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- Agenda -->
+    <section class="section" id="agenda" aria-labelledby="agenda-title">
+      <div class="wrap">
+        <h2 id="agenda-title">Agenda</h2>
+        <p class="section-intro">A one-day programme mixing short talks, case discussions and time to meet colleagues. All times are UK time.</p>
+        <ol class="agenda">
+          <li>
+            <span class="agenda-time">9:00</span>
+            <div>
+              <h3>Welcome and coffee</h3>
+              <p>Registration, coffee and a chance to meet the speakers.</p>
+            </div>
+          </li>
+          <li>
+            <span class="agenda-time">9:30</span>
+            <div>
+              <h3>How CAR T cells work: a plain-language refresher</h3>
+              <p>From collecting a patient's T cells to engineering and infusing them.</p>
+            </div>
+          </li>
+          <li>
+            <span class="agenda-time">10:45</span>
+            <div>
+              <h3>Managing side effects on the ward</h3>
+              <p>Spotting and treating cytokine release syndrome and neurotoxicity early.</p>
+            </div>
+          </li>
+          <li>
+            <span class="agenda-time">12:30</span>
+            <div>
+              <h3>Lunch and poster session</h3>
+              <p>Browse research posters from fictional teams across the country.</p>
+            </div>
+          </li>
+          <li>
+            <span class="agenda-time">13:30</span>
+            <div>
+              <h3>Beyond blood cancers: solid tumours</h3>
+              <p>What's holding CAR T back in solid tumours, and what might help.</p>
+            </div>
+          </li>
+          <li>
+            <span class="agenda-time">15:00</span>
+            <div>
+              <h3>The patient journey: a case discussion</h3>
+              <p>A nurse-led look at support before, during and after treatment.</p>
+            </div>
+          </li>
+          <li>
+            <span class="agenda-time">16:15</span>
+            <div>
+              <h3>Closing remarks</h3>
+              <p>Key takeaways and next steps.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- Speakers -->
+    <section class="section section-tint" id="speakers" aria-labelledby="speakers-title">
+      <div class="wrap">
+        <h2 id="speakers-title">Speakers</h2>
+        <p class="section-intro">All speakers are fictional and made up for this training exercise.</p>
+        <ul class="speakers">
+          <li class="speaker">
+            <div class="avatar" aria-hidden="true">AO</div>
+            <h3>Dr Amara Osei</h3>
+            <p class="speaker-role">Consultant haematologist</p>
+            <p>Leads a fictional cell therapy unit and talks about how CAR T cells work.</p>
+          </li>
+          <li class="speaker">
+            <div class="avatar" aria-hidden="true">HL</div>
+            <h3>Prof Henrik Lund</h3>
+            <p class="speaker-role">Professor of immuno-oncology</p>
+            <p>Researches why CAR T cells struggle to reach solid tumours.</p>
+          </li>
+          <li class="speaker">
+            <div class="avatar" aria-hidden="true">PN</div>
+            <h3>Priya Nair</h3>
+            <p class="speaker-role">Clinical nurse specialist</p>
+            <p>Supports patients and families through every stage of treatment.</p>
+          </li>
+          <li class="speaker">
+            <div class="avatar" aria-hidden="true">TF</div>
+            <h3>Dr Tomás Ferro</h3>
+            <p class="speaker-role">Intensive care consultant</p>
+            <p>Shares practical tips for managing side effects safely.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Register -->
+    <section class="section register" id="register" aria-labelledby="register-title">
+      <div class="wrap register-inner">
+        <h2 id="register-title">Register your place</h2>
+        <p>Places are free for healthcare professionals. Join us in person or online.</p>
+        <button class="button button-light" type="button" id="register-button">Register now</button>
+        <p class="register-message" id="register-message" role="status" aria-live="polite"></p>
+      </div>
+    </section>
   </main>
 
   <footer>
