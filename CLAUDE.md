@@ -4,15 +4,15 @@ Claude reads this file at the start of every session. It's your project's standi
 
 ## ✏️ About this project
 
-- **What we're building:** (one or two sentences, e.g. "A one-page microsite for a fictional congress symposium" or "A simple tracker for my professional development goals")
-- **Who it's for:** (who will use it, and on what device)
-- **What "done" looks like today:** (the smallest version you'd be happy to show the group at 12:30)
+- **What we're building:** A one-page website for a made-up medical symposium on oncology, themed around CAR T cell therapy. The name, date, venue, agenda and speakers are all fictional.
+- **Who it's for:** Healthcare professionals, on phones and laptops.
+- **What "done" looks like today:** A hero banner with the symposium name and date, a short agenda, a speakers section, and a register button.
 
 ## ✏️ Look and feel
 
-- **Brand:** (e.g. Wizzard: Inter for body text, Montserrat for headings; or a fictional client's colours)
-- **Tone:** (e.g. clear, warm, scientific but not stuffy)
-- **Reference:** (a site you like, or "clean and simple")
+- **Brand:** A made-up brand for the symposium, in shades of blue. Simple hand-drawn SVG illustrations of CAR T cells as the visual motif. Fonts: Inter for body text, Montserrat for headings (from Google Fonts).
+- **Tone:** Clear, warm and scientific but not stuffy.
+- **Reference:** Clean and simple, like an NHS web page. Copy the simplicity only, not the NHS name, logo or branding.
 
 ## About me
 
